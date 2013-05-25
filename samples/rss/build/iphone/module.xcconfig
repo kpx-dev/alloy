@@ -1,0 +1,4 @@
+// this is a generated file - DO NOT EDIT
+
+FACEBOOK_OTHER_LDFLAGS=$(inherited) -weak_framework AdSupport -weak_framework Accounts -weak_framework Social
+OTHER_LDFLAGS=$(inherited) $(FACEBOOK_OTHER_LDFLAGS) 
